@@ -1,6 +1,6 @@
-describe('My first cypress test', () => {
+describe('Sign A user in and out', () => {
 
-    it('Navigate to Google.com', () => {
+    it('Navigate to EA website', () => {
       cy.visit('http://executeautomation.com/demosite/Login.html');
     })
 
@@ -15,6 +15,10 @@ describe('My first cypress test', () => {
       cy.get('#Initial').type('KK.')
       cy.get('#FirstName').type('Karthik')
       cy.get('input[name=Hindi]').click()
+    })
+
+    it('Log Out User', () => {
+      cy.get('input[name=Logout]').click()
     })
 
 })
