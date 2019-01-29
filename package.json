@@ -1,0 +1,22 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "Exploring the Cyrpress testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksondonovan/cypress-testing.git"
+  },
+  "author": "Jackson Donovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksondonovan/cypress-testing/issues"
+  },
+  "homepage": "https://github.com/jacksondonovan/cypress-testing#readme",
+  "dependencies": {
+    "cypress": "^3.1.4"
+  }
+}
